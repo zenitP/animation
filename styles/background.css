@@ -1,0 +1,47 @@
+.body
+{
+    background-color: #2c3037;
+}
+
+.bg_image
+{
+    width: 10%;
+    height: 10%;
+    position:absolute;
+    left: 565px;
+    top: 240px;
+}
+
+.go_back
+{
+    background: url(../images/page2/home.jpeg) no-repeat;
+    width: 85%;
+    height: 57%;
+    position:absolute;
+    left: 0px;
+    top: 350px;
+}
+
+.find_more
+{
+    background: url(../images/page2/find_out_more.png) no-repeat;
+    width: 200%;
+    height: 60%;
+    position:absolute;
+    left: 414px;
+    top: 350px;
+}
+
+.go_back:hover
+{
+    background: url(../images/page2/home_d.jpeg) no-repeat;
+    width: 85%;
+    height: 57%;
+}
+
+.find_more:hover
+{
+    background: url(../images/page2/find_out_more_d.png) no-repeat;
+    width: 200%;
+    height: 60%;
+}

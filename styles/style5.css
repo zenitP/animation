@@ -1,0 +1,117 @@
+
+@-webkit-keyframes wave{
+    0%{
+        margin-top: -800px;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: 3s;
+    }
+
+    20%{
+        margin-top: 0px;
+    }
+
+    40%{
+        margin-top: -200px;
+    }
+
+    60%{
+        margin-top: 0px;
+    }
+
+    80%{
+        margin-top: -100px;
+    }
+
+    100%{
+        margin-top: 0;
+        opacity: 100%;
+     }
+}
+
+.body
+{
+    background-color: grey;
+
+}
+
+@keyframes full-hd
+{
+    0%{
+        transform: translateX(0%);
+      }
+
+    100%{
+        transform: translateX(-100%);
+        }
+}
+
+body section:before
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #2c3037;
+    transform: translateX(-100%);
+    animation: full-hd 3s ease-in-out;
+}
+
+.bg_image
+{
+    animation: wave 3s ease;
+}
+
+.bg
+{
+    display: inline-block;
+    overflow: hidden;
+}
+
+.bg img
+{
+    transition: 1s;
+    display: block;
+}
+
+.bg img:hover
+{
+   transform: scale(1.08);
+}
+
+.go_back
+{
+    background: url(../images/page5/go_back.png) no-repeat;
+    width: 96%;
+}
+
+.find_more
+{
+    background: url(../images/page5/find_out_more.png) no-repeat;
+    width: 211%;
+}
+
+.go_back:hover
+{
+    background: url(../images/page5/go_back_d.png) no-repeat;
+    width: 96%;
+}
+
+.find_more:hover
+{
+    background: url(../images/page5/find_out_more_d.png) no-repeat;
+    width: 211%;
+}
+
+.l
+{
+    left:416px;
+}
+
+.r
+{
+    left: 780px;
+}

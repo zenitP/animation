@@ -1,0 +1,172 @@
+@-webkit-keyframes background-opacity
+{
+    0%{
+          top: 400px;
+          opacity: 0;
+          transition: 3s;
+      }
+
+    60%{
+          opacity: 30%;
+    }
+
+    100%{
+          opacity: 100%;
+     }
+}
+
+.bg_image
+{
+    animation: background-opacity 3s ease;
+    filter: grayscale(100%);
+}
+
+.bg_image:hover
+{
+  filter:none;
+}
+
+.body
+{
+    background-color: grey;
+}
+
+@keyframes full-hd
+{
+  0%{
+
+    transform: translateY(-100%);
+    opacity: 0.1;
+    transition: 3s;
+  }
+
+  5%{
+      transform: translateY(0%);
+  }
+
+  10%{
+      transform: translateY(-95%);
+  }
+
+  15%{
+      transform: translateY(0%);
+  }
+
+  20%{
+      transform: translateY(-90%);
+  }
+
+  25%{
+      transform: translateY(0%);
+  }
+
+  30%{
+      transform: translateY(-85%);
+  }
+
+  35%{
+      transform: translateY(0%);
+  }
+
+  40%{
+      transform: translateY(-80%);
+  }
+
+  45%{
+      transform: translateY(0%);
+  }
+
+  50%{
+      transform: translateY(-75%);
+  }
+
+  55%{
+      transform: translateY(0%);
+  }
+
+  60%{
+      transform: translateY(-70%);
+  }
+
+  65%{
+      transform: translateY(0%);
+  }
+
+  70%{
+      transform: translateY(-65%);
+  }
+
+  75%{
+      transform: translateY(-20%);
+  }
+
+  80%{
+      transform: translateY(0%);
+  }
+
+  85%{
+      transform: translateY(-10%);
+  }
+
+  90%{
+      transform: translateY(0%);
+  }
+
+  95%{
+      transform: translateY(-5%);
+  }
+
+  100%{
+      transform: translateY(0%);
+      opacity: 1;
+  }
+}
+
+
+body section:before
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #2c3037;
+    transform: translateY(0%);
+    animation: full-hd 3s ease-in-out;
+}
+
+.go_back
+{
+    background: url(../images/page6/go_back.png) no-repeat;
+    width: 90%;
+}
+
+.find_more
+{
+    background: url(../images/page6/find_out_more.png) no-repeat;
+    width: 205%;
+}
+
+.go_back:hover
+{
+    background: url(../images/page6/go_back_d.png) no-repeat;
+    width: 90%;
+}
+
+.find_more:hover
+{
+    background: url(../images/page6/find_out_more_d.png) no-repeat;
+    width: 205%;
+}
+
+.l
+{
+    top:196px;
+    left:406px;
+}
+
+.r{
+    top:196px;
+    left: 760px;
+}

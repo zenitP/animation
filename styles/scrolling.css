@@ -1,0 +1,43 @@
+.l
+{
+    background: url(../images/left.png) no-repeat;
+    width: 16%;
+    height: 50%;
+    position:absolute;
+    left: 400px;
+    top: 220px;
+
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 600ms;
+}
+
+.l:hover
+{
+    width: 15%;
+    transform: scale(1.8,1.8);
+    transition-timing-function: ease-out;
+    transition-duration: 600ms;
+}
+
+.r
+{
+    background: url(../images/right.png) no-repeat;
+    width: 15%;
+    height: 50%;
+    position:absolute;
+    left: 744px;
+    top: 220px;
+
+    transform: scale(1,1);
+    transition-timing-function: ease-out;
+    transition-duration: 600ms;
+}
+
+.r:hover
+{
+    width: 15%;
+    transform: scale(1.7,1.7);
+    transition-timing-function: ease-out;
+    transition-duration: 600ms;
+}

@@ -1,0 +1,70 @@
+@keyframes degree
+{
+  0%{
+      width: 0%;
+      height: 0%;
+      transform: rotate(0deg);
+      opacity: 0.1;
+      transition: 3s;
+      left: 0px;
+  }
+
+  100%{
+      opacity: 1;
+      transform: rotate(720deg);
+      width: 10%;
+      height: 10%;
+  }
+}
+
+.body
+{
+    background: linear-gradient(to bottom, #202020, #111119);
+}
+
+.body:hover
+{
+    background: linear-gradient(to top, #202020, #111119);
+}
+
+.bg_image
+{
+      animation: degree 3s linear;
+}
+
+.go_back
+{
+    background: url(../images/page7/go_back.png) no-repeat;
+    width: 83%;
+}
+
+.find_more
+{
+    background: url(../images/page7/find_out_more.png) no-repeat;
+    left: 408px;
+    height: 57%;
+}
+
+.go_back:hover
+{
+    background: url(../images/page7/go_back_d.png) no-repeat;
+    width: 83%;
+}
+
+.find_more:hover
+{
+    background: url(../images/page7/find_out_more_d.png) no-repeat;
+    height: 57%;
+    transform: skewX(-18deg);
+}
+
+.l
+{
+    top:196px;
+
+}
+
+.r{
+    top:196px;
+    left: 730px;
+}

@@ -1,0 +1,109 @@
+@keyframes attenuation
+{
+  5%{
+      transform: translateX(500px);
+      opacity: 0.1;
+      transition: 4s;
+  }
+
+  10%{
+      transform: translateX(-450px);
+  }
+
+  15%{
+      transform: translateX(450px);
+  }
+
+  20%{
+      transform: translateX(-400px);
+  }
+
+  25%{
+      transform: translateX(400px);
+  }
+
+  30%{
+      transform: translateX(-350px);
+  }
+
+  35%{
+      transform: translateX(350px);
+  }
+
+  40%{
+      transform: translateX(-300px);
+  }
+
+  45%{
+      transform: translateX(300px);
+  }
+
+  50%{
+      transform: translateX(-250px);
+  }
+
+  55%{
+      transform: translateX(250px);
+  }
+
+  60%{
+      transform: translateX(-200px);
+  }
+
+  65%{
+      transform: translateX(200px);
+  }
+
+  70%{
+      transform: translateX(-150px);
+  }
+
+  75%{
+      transform: translateX(150px);
+  }
+
+  80%{
+      transform: translateX(-100px);
+  }
+
+  85%{
+      transform: translateX(100px);
+  }
+
+  90%{
+      transform: translateX(-50px);
+  }
+
+  95%{
+      transform: translateX(50px);
+  }
+
+  100%{
+      transform: translateX(0);
+  }
+}
+
+.bg_image
+{
+    animation: attenuation 4s ease;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+
+.text
+{
+    background: url(../images/page2/text.png) no-repeat;
+    width: 150%;
+    height: 210%;
+    position:absolute;
+    left: 445px;
+    top: 140px;
+    transition: all 1s ease-in-out;
+}
+
+.text:hover
+{
+    border: 1px solid #888;
+    -moz-transition: all 1s 0.1s ease-in;
+    transform: rotate(360deg);
+}

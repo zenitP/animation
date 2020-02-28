@@ -1,0 +1,64 @@
+.body_hide
+{
+    opacity: 0.1;
+    transition: 1s;
+    position: fixed;
+    top: 25%;
+    left: 29%;
+}
+
+.body_show
+{
+    background-color: #2c3037;
+    opacity:1;
+}
+
+.button1
+{
+    background: url(../images/page1/button_1.png) no-repeat;
+    width: 54%;
+    height: 12%;
+    position:absolute;
+    left: 370px;
+    top: 230px;
+}
+
+.button1:hover
+{
+    background: url(../images/page1/button_1dark.png) no-repeat;
+    width: 54%;
+    height: 12%;
+}
+
+.button2
+{
+    background: url(../images/page1/button_2.png) no-repeat;
+    width: 54%;
+    height: 12%;
+    position:absolute;
+    left: 370px;
+    top: 295px;
+}
+
+.button2:hover
+{
+    background: url(../images/page1/button_2dark.png) no-repeat;
+    width: 54%;
+    height: 12%;
+}
+
+.button3{
+    background: url(../images/page1/button_3.png) no-repeat;
+    width: 54%;
+    height: 12%;
+    position:absolute;
+    left: 370px;
+    top: 360px;
+}
+
+.button3:hover
+{
+    background: url(../images/page1/button_3dark.png) no-repeat;
+    width: 54%;
+    height: 12%;
+}
